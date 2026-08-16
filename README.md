@@ -17,23 +17,6 @@ An interactive **Drum Kit web application** that lets users play different drum 
 * **CSS3** – Styling, layout, and animations
 * **JavaScript** – Keyboard events and audio functionality
 
-## 📂 Project Structure
-
-```text
-Drum-Kit/
-│
-├── index.html
-├── styles.css
-├── index.js
-└── sounds/
-    ├── tom-1.mp3
-    ├── tom-2.mp3
-    ├── tom-3.mp3
-    ├── tom-4.mp3
-    ├── crash.mp3
-    ├── kick-bass.mp3
-    └── snare.mp3
-```
 
 ## 🎮 How to Use
 
@@ -42,12 +25,6 @@ Drum-Kit/
 3. Alternatively, press the corresponding keyboard key.
 4. Enjoy creating your own drum beats! 🎶
 
-## 📸 Preview
-
-Add a screenshot or GIF of your project here:
-
-```markdown
-![Drum Kit Preview](screenshot.png)
 ```
 
 ## 💡 What I Learned
