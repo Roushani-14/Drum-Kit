@@ -56,7 +56,7 @@ Add a screenshot or GIF of your project here:
 * Playing audio dynamically using JavaScript
 * Manipulating DOM elements
 * Adding CSS animations and interactive effects
-* Building an interactive frontend project using JavaScript
+* Building an interactive frontend project using vanilla JavaScript
 
 ## 👩‍💻 Author
 
