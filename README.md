@@ -1,40 +1,82 @@
 # 🥁 Drum Kit
 
-An interactive **Drum Kit web application** that lets users play different drum sounds directly from the browser using keyboard keys or on-screen buttons.
+> **Turn your keyboard into a drum set and make some noise! 🎵**
 
-## 🚀 Features
+Drum Kit is an interactive **browser-based music experience** built using **HTML, CSS, and JavaScript**.
 
-* 🥁 Play different drum sounds using keyboard keys
-* 🖱️ Clickable drum buttons for mouse interaction
-* 🎵 Real-time audio playback
-* ✨ Interactive button animations
-* 📱 Simple and responsive interface
-* ⚡ Built with pure HTML, CSS, and JavaScript
+Instead of simply looking at a drum set, you get to **play it**. Click the drums with your mouse or use your keyboard to trigger different sounds and create your own beats.
 
-## 🛠️ Tech Stack
+---
 
-* **HTML5** – Structure of the drum kit
-* **CSS3** – Styling, layout, and animations
-* **JavaScript** – Keyboard events and audio functionality
+## 🎵 What Can You Do?
 
+### 🥁 Play Different Drums
 
-## 🎮 How to Use
+The kit contains multiple drum sounds, including:
 
-1. Open `index.html` in your browser.
-2. Click on any drum button to play its sound.
-3. Alternatively, press the corresponding keyboard key.
-4. Enjoy creating your own drum beats! 🎶
+- 🪘 Tom 1
+- 🪘 Tom 2
+- 🪘 Tom 3
+- 🪘 Tom 4
+- 🥁 Snare
+- 💥 Crash
+- 🔊 Kick
 
-```
+Each drum is mapped to a specific keyboard key, allowing you to play the kit without touching your mouse. :contentReference[oaicite:1]{index=1}
 
-## 💡 What I Learned
+---
 
-* Handling **keyboard and mouse events** in JavaScript
-* Playing audio dynamically using JavaScript
-* Manipulating DOM elements
-* Adding CSS animations and interactive effects
-* Building an interactive frontend project using vanilla JavaScript
+## 🎮 Two Ways to Play
 
-## 👩‍💻 Author
+### 🖱️ Mouse
 
-**Roushani Kumari**
+Click any drum button on the screen to trigger its corresponding sound.
+
+### ⌨️ Keyboard
+
+Use the assigned keyboard keys to play the drums:
+
+| Key | Sound |
+|---|---|
+| `W` | Tom 1 |
+| `A` | Tom 2 |
+| `S` | Tom 3 |
+| `D` | Tom 4 |
+| `J` | Snare |
+| `K` | Crash |
+| `L` | Kick |
+
+Keyboard events are captured using JavaScript's event handling system and mapped to individual audio files. :contentReference[oaicite:2]{index=2}
+
+---
+
+## ✨ Interactive Visual Feedback
+
+Every time a drum is played, the corresponding button briefly changes its appearance.
+
+This creates a visual response that makes the interaction feel more like a small browser game rather than a static webpage.
+
+The animation is handled by adding and removing a `pressed` CSS class dynamically. :contentReference[oaicite:3]{index=3}
+
+---
+
+## 🧠 How It Works
+
+The project follows a simple event-driven flow:
+
+```text
+          User Input
+         /          \
+      Mouse        Keyboard
+        │              │
+        └──────┬───────┘
+               ↓
+        JavaScript Event
+               ↓
+          Identify Key
+               ↓
+         Play Drum Sound
+               ↓
+       Trigger Animation
+               ↓
+        Visual Feedback
